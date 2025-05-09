@@ -1,4 +1,5 @@
 import Typography from "./common/Typography";
+import Button from "./common/Button";
 
 export default function Event({
   location,
@@ -9,7 +10,9 @@ export default function Event({
 }: EventProps) {
   return (
     <div className="flex justify-between items-center border-1 border-green1 rounded-2xl px-10 py-6 bg-grey3">
-      <Typography className="text-center text-green2">{location}</Typography>
+      <Typography className="text-center text-green2 w-20">
+        {location}
+      </Typography>
       <div className="flex flex-col w-[50%] gap-1">
         <Typography className="text-green1">{date}</Typography>
         <Typography className="text-green2">
@@ -17,9 +20,7 @@ export default function Event({
         </Typography>
         <Typography className="text-green2">{notice}</Typography>
       </div>
-      <button className="px-6 py-3 rounded-full bg-tan2 text-green2">
-        Book Time
-      </button>
+      <Button>Book Time</Button>
     </div>
   );
 }
