@@ -5,7 +5,7 @@ export default function Typography({
   onClick,
 }: TypographyProps) {
   return (
-    <Tag className={`text-gray-800 ${className}`} onClick={onClick}>
+    <Tag className={`text-green1 ${className}`} onClick={onClick}>
       {children}
     </Tag>
   );

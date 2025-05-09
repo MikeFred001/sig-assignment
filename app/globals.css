@@ -6,25 +6,28 @@
 }
 
 @theme {
-  extend: {
-    colors: {
-      green1: "#103c00",
-      green2: "#35711f",
-      green3: "#60a543",
-      green4: "#e6efc5",
-      tan1: "#4f463c",
-      tan2: "#e7cbaf",
-      grey1: "#333333",
-      grey2: "#808080",
-      grey3: "#f2f2f2",
-    },
-  }
+  --color-green1: #103c00;
+  --color-green2: #35711f;
+  --color-green3: #60a543;
+  --color-green4: #e6efc5;
+  --color-tan1: #4f463c;
+  --color-tan2: #e7cbaf;
+  --color-grey1: #333333;
+  --color-grey2: #808080;
+  --color-grey3: #f2f2f2;
 }
 
-@media (prefers-color-scheme: dark) {
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: light) {
   :root {
     --background: #0a0a0a;
-    --foreground: #ededed;
+    --foreground: #ffffff;
   }
 }
 
