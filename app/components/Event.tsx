@@ -13,7 +13,7 @@ export default function Event({
       <Typography className="text-center text-green2 w-auto lg:w-25 text-[1.5rem]">
         {location}
       </Typography>
-      <div className="flex flex-col items-center w-auto md:w-[50%]">
+      <div className="flex flex-col items-center md:items-start w-auto md:w-[50%]">
         <Typography className="text-green1 text-[1.25rem] lg:text-[2rem] font-sans font-extrabold">
           {date}
         </Typography>
