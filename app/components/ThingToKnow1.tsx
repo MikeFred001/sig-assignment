@@ -33,9 +33,9 @@ export default function ThingToKnow1() {
           <Image
             src="/assets/updated-assets/AwaitingCert-Image.png"
             alt="Awaiting Certification Icon"
-            width={210}
-            height={210}
-            className="ml-35"
+            width={225}
+            height={225}
+            className="ml-51"
           />
         </div>
       </div>

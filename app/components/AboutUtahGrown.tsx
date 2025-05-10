@@ -5,7 +5,7 @@ export default function AboutUtahGrown() {
   return (
     <section className="flex justify-between gap-12 mt-12">
       <div className="flex flex-col gap-15">
-        <article className="">
+        <article className="mt-4">
           <Typography className="text-[3rem]">About Utah Grown</Typography>
           <Typography className="text-grey2 leading-[2.25rem]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus,

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <div className="border-t-3 border-green1">
+    <footer className="border-t-3 border-green1">
       <div className="flex px-[10rem]">
         <Image
           src="/assets/updated-assets/UtahGrownLogoWhiteBorderCropped.png"
@@ -27,6 +27,6 @@ export default function Footer() {
           </div>
         </div>
       </div>
-    </div>
+    </footer>
   );
 }
