@@ -18,7 +18,7 @@ export default function Home() {
       <Typography className="text-center text-[1.25rem] lg:text-[1.8rem] text-green1 py-1 font-normal">
         Utah&apos;s Cannabis Community
       </Typography>
-      <main className="flex flex-col gap-6 px-[6px] -mb-5 lg:px-[10rem] md:px-[6rem]">
+      <main className="flex flex-col gap-6 px-[6px] mb-10 lg:-mb-5 lg:px-[10rem] md:px-[6rem]">
         <UpcomingEvents />
         <ThingsToKnow />
         <BannerAd />
