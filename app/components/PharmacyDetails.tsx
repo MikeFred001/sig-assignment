@@ -21,7 +21,7 @@ export default function PharmacyDetails({ data }: PharmacyDetailsProps) {
         <Typography className="text-[1.5rem] text-green2">
           {data.name}
         </Typography>
-        <div className="grid grid-cols-[50%_25%_25%]">
+        <div className="grid grid-cols-[55%_1fr_1fr]">
           <div>
             {data.locations.map(
               (location: { address: string; phone: string }, index: number) => (
