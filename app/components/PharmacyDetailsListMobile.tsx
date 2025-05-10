@@ -1,6 +1,6 @@
-import PharmacyDetails from "./PharmacyDetails";
+import PharmacyDetailsMobile from "./PharmacyDetailsMobile";
 
-export default function PharmacyDetailsList({
+export default function PharmacyDetailsListMobile({
   className,
 }: {
   className?: string;
@@ -8,7 +8,7 @@ export default function PharmacyDetailsList({
   return (
     <div className={`flex flex-col gap-5 ${className}`}>
       {pharmaciesData.map((pharmacyData, index) => (
-        <PharmacyDetails key={index} data={pharmacyData} />
+        <PharmacyDetailsMobile key={index} data={pharmacyData} />
       ))}
     </div>
   );
