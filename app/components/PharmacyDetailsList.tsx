@@ -2,7 +2,7 @@ import PharmacyDetails from "./PharmacyDetails";
 
 export default function PharmacyDetailsList() {
   return (
-    <div className="flex flex-col gap-6">
+    <div className="flex flex-col gap-5">
       {pharmaciesData.map((pharmacyData, index) => (
         <PharmacyDetails key={index} data={pharmacyData} />
       ))}
