@@ -4,6 +4,8 @@ import UpcomingEvents from "./components/UpcomingEvents";
 import Typography from "./components/common/Typography";
 import BannerAd from "./components/BannerAd";
 import UtahMedCardInfo from "./components/UtahMedCardInfo";
+import ReviewUsBanner from "./components/ReviewUsBanner";
+import FAQs from "./components/FAQs";
 
 export default function Home() {
   return (
@@ -19,6 +21,8 @@ export default function Home() {
         <ThingsToKnow />
         <BannerAd src="/assets/MockBannerAd@2x.png" />
         <UtahMedCardInfo />
+        <ReviewUsBanner />
+        <FAQs />
       </main>
     </div>
   );
