@@ -21,7 +21,7 @@ export default function Home() {
       <main className="flex flex-col gap-6 px-1 -mb-5 lg:px-[10rem] md:px-[6rem]">
         <UpcomingEvents />
         <ThingsToKnow />
-        <BannerAd src="/assets/MockBannerAd@2x.png" />
+        <BannerAd />
         <UtahMedCardInfo />
         <ReviewUsBanner />
         <FAQs />

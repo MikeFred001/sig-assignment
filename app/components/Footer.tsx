@@ -1,5 +1,6 @@
 import Typography from "./common/Typography";
 import Image from "next/image";
+import FooterBase from "./FooterBase";
 
 export default function Footer() {
   return (
@@ -16,17 +17,7 @@ export default function Footer() {
           UTAH&apos;S CANNABIS COMMUNITY
         </Typography>
       </div>
-      <div className="h-[7.5rem] bg-green1 text-grey3">
-        <div className="mx-[15rem]">
-          <div className="flex gap-10 justify-end p-3">
-            <Typography className="text-grey3">
-              Ⓒ2023 All Rights Reserved.
-            </Typography>
-            <Typography className="text-grey3">Terms and Conditions</Typography>
-            <Typography className="text-grey3">Privacy Policy</Typography>
-          </div>
-        </div>
-      </div>
+      <FooterBase />
     </footer>
   );
 }

@@ -8,7 +8,7 @@ export default function Header() {
       <Image
         src="/assets/updated-assets/UtahGrownLogoWhiteBorderCropped@2x.png"
         alt="green utah grown logo with white border"
-        className="absolute bottom-0 w-[80%] sm:w-[42%] translate-y-12"
+        className="absolute bottom-0 w-[65%] sm:w-[42%] translate-y-12"
         width={600}
         height={5}
       />

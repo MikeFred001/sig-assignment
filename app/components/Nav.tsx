@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Nav() {
   return (
-    <nav className="flex flex-col items-center gap-2 justify-between w-[60%] text-green1 py-10 lg:flex-row lg:gap-0">
+    <nav className="flex flex-col items-center gap-2 justify-between w-[60%] text-green1 py-10 lg:!flex-row lg:gap-0">
       <Link href="/">
         <Typography className="font-normal">APPOINTMENTS</Typography>
       </Link>

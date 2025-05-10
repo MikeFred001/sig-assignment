@@ -2,7 +2,7 @@ import Event from "./Event";
 
 export default function EventList() {
   return (
-    <div className="flex flex-col gap-8">
+    <div className="flex flex-col gap-6 md:gap-8">
       <Event
         location="Downtown SLC"
         date="Tuesday, October 3rd 2023"
