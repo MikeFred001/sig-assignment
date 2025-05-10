@@ -7,7 +7,7 @@ export default function ReviewUsBanner() {
       <Typography className="text-grey3 text-[2.5rem]">
         We&apos;d love to hear from you!
       </Typography>
-      <Button className="text-[2rem] w-fit">Review Us here!</Button>
+      <Button className="text-[1.8rem] w-fit">Review us here!</Button>
     </section>
   );
 }

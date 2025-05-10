@@ -6,13 +6,13 @@ import BannerAd from "./components/BannerAd";
 import UtahMedCardInfo from "./components/UtahMedCardInfo";
 import ReviewUsBanner from "./components/ReviewUsBanner";
 import FAQs from "./components/FAQs";
+import UtahCannabisPharmacies from "./components/UtahCannabisPharmacies";
 
 export default function Home() {
   return (
     <div>
       <Header />
       <div className="h-[570px] bg-green1" />
-
       <Typography className="text-center text-[1.8rem] text-green1 py-1">
         Utah&apos;s Cannabis Community
       </Typography>
@@ -23,6 +23,7 @@ export default function Home() {
         <UtahMedCardInfo />
         <ReviewUsBanner />
         <FAQs />
+        <UtahCannabisPharmacies />
       </main>
     </div>
   );

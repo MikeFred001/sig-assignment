@@ -1,4 +1,3 @@
-// import Typography from "./common/Typography";
 import Event from "./Event";
 
 export default function EventList() {

@@ -20,7 +20,7 @@ export default function Event({
         </Typography>
         <Typography className="text-green2">{notice}</Typography>
       </div>
-      <Button>Book Time</Button>
+      <Button className="!py-4 text-[1.25rem]">Book Time</Button>
     </div>
   );
 }
