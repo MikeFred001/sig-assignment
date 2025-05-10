@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Nav() {
   const navItemStyling =
-    "font-normal md:p-0 md:bg-transparent rounded-full py-[2px] px-2 bg-green4";
+    "font-normal lg:p-0 lg:bg-transparent rounded-full py-[2px] px-2 bg-green4";
   return (
     <nav className="flex flex-col items-center gap-2 justify-between w-[60%] text-green1 py-10 lg:!flex-row lg:gap-0">
       <Link href="/">
