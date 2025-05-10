@@ -22,7 +22,7 @@ export default function ThingToKnow3() {
         <Typography className="text-center md:text-start">
           If you are a new patient, here&apos;s some help to get your started...
         </Typography>
-        <div className="ml-0 px-8 md:ml-auto">
+        <div className="ml-auto mr-auto px-8 md:ml-auto md:mr-0">
           <Typography>1. Meet with Pharmacist</Typography>
           <Typography>2. Set up your Portal Account</Typography>
           <Typography>3. Start Shopping</Typography>
